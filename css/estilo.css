@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gainsboro;
+    font-family: sans-serif;
+    }
+
+header, main, footer {
+    background: plum;
+    width:90%;
+    max-width: 1000px;
+    margin:20px auto;
+}
+
+header nav {
+    background: rebeccapurple;
+    overflow: hidden;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float:right;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display:block;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background:violet
+}
+
+aside {
+    width: 20%;
+    background: white;
+    overflow: hidden;
+}
+
+aside ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+
+aside ol li {
+    float:left;
+}
+
+aside ol li a {
+    display: block;
+    color: gray;
+    padding: 10px 0 10px 20px;
+    text-decoration: none;
+}
+
+aside ol li a:hover {
+    background: lightgray;
+    color: black
+}
+
+div {
+    width: 80%;
+    float:right;
+}
+
+div {
+    display: flex;
+    width: 85%;
+    margin:auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+
+div img {
+    width: 25%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75); 
+}
+
+.item .item-img {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+}
+
+
+    
